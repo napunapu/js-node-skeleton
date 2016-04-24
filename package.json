@@ -1,0 +1,24 @@
+{
+  "name": "js-node-skeleton",
+  "description": "A skeleton project for using Node.js as a complete application",
+  "version": "0.0.1",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:napunapu/js-node-skeleton.git"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "make test"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "sequelize": "^3.21.0"
+  },
+  "devDependencies": {
+	"mocha": "^2.4.5",
+	"should": "^8.2.2"
+  },
+  "author": "Panu Korpela <panu.korpela@iki.fi> (http://panukorpela.com/)",
+  "license": "MIT"
+}
