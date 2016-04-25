@@ -12,7 +12,9 @@
     "test": "make test"
   },
   "dependencies": {
+    "colors": "^1.1.2",
     "express": "^4.13.4",
+    "mysql": "^2.10.2",
     "sequelize": "^3.21.0"
   },
   "devDependencies": {

@@ -1,6 +1,6 @@
 {
   "development": {
-    "db_user": "root",
+    "db_user": "node_user",
     "db_password": "password",
     "db_name": "node_db",
     "host": "127.0.0.1",
