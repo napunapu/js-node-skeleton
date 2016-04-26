@@ -1,3 +1,6 @@
+// Unix-like:  ./test ./node_modules/.bin/mocha -u tdd test/models/test.js
+// Windows:    .\node_modules\.bin\mocha -u tdd test\models\test.js
+
 var should = require('should');
 var db = require('../../models/index');
 var colors = require('colors');
