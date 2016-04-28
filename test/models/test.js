@@ -25,12 +25,12 @@ describe('Model tests', function () {
       });
   });
   // after all the tests have run, output all the sequelize logging and recreate the database
-  after(function (done) {
+  /*after(function (done) {
     db.sequelize.sync({force: true})
       .then(function () {
           console.log(logOutput.gray);
           done();
       });
-  });
+  });*/
   require('./user')(db);
 });
