@@ -1,4 +1,4 @@
-// Unix-like:  ./test ./node_modules/.bin/mocha -u tdd test/models/test.js
+// Unix-like:  ./node_modules/.bin/mocha -u tdd test/models/test.js
 // Windows:    .\node_modules\.bin\mocha -u tdd test\models\test.js
 
 var should = require('should');
